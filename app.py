@@ -36,7 +36,7 @@ def get_conversation_chain(vectorstore):
     llm = ChatGroq(
     model="mixtral-8x7b-32768",
     temperature=0.0,  # Adjust as needed
-    api_key="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",
+    api_key="",
 )
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
     conversation_chain = ConversationalRetrievalChain.from_llm(
