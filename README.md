@@ -17,6 +17,21 @@ Key Features:
 6: User-friendly Interface: Designed with a simple and easy-to-navigate interface, enabling smooth interaction with the chatbot.
 
 
+Installation:
+
+1: Clone the repository: git clone https://github.com/yourusername/chat-with-pdf.git cd chat-with-pdf
+
+2: Install dependencies: pip install -r requirements.txt
+
+3: Start the Streamlit app: streamlit run chatbot.py
+
+
+Acknowledgments:
+
+
+. This project uses the OpenAI API for natural language processing.
+
+
 
   
 
